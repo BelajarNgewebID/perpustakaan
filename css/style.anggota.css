@@ -1,0 +1,107 @@
+body { background-color: #ecf0f1; }
+.kontainerLogin {
+	background-color: #fff;
+	border:1px solid #aaa;
+	font-family: sans-serif;
+	text-align: center;
+	width: 46%;
+	position: absolute;
+	top: 8%;left: 27%;
+	height: 80%;
+}
+.kontainerLogin > h1 { font-size: 50px;margin: 27px 0px 14px 0px;color: #666; }
+.logBox {
+	position: absolute;
+	left: 15%;top: 26%;
+	width: 65%;
+	height: 53px;
+	border-radius: 38px;
+	border:1px solid #aaa;
+	color: #333;
+	padding:1px 20px 1px 20px;
+	z-index: 2;
+	font-size: 24px;
+	background: none;
+}
+#password {	top: 45%; }
+#isiUsername,#isiPassword { position: absolute;left: 18%;font-size: 24px;transition: 0.6s; }
+#isiUsername { top: 28.5%; }
+#isiPassword { top: 47.5%; }
+.tblLoginAnggota {
+	width: 60%;
+	position: absolute;
+	top: 67%;left: 20%;
+	height: 65px;
+	background-color: #3498db;
+	color: #fff;
+	font-size: 22px;
+	letter-spacing: 2px;
+	border-radius: 40px;
+	border:none;
+	transition: 0.65s;
+	cursor: pointer;
+}
+.tblLoginAnggota:hover { background-color: #2980b9; }
+#bgNotif {
+	position: absolute;
+	top: 0px;left: 0px;right: 0px;bottom: 0px;
+	background: rgba(0,0,0,0.6);
+	display: none;
+	z-index: 2;
+}
+#notif {
+	position: absolute;
+	top: 24%;left: 20%;
+	width: 60%;
+	text-align: center;
+	font-family: sans-serif;
+	background-color: #fff;
+	z-index: 2;
+	display: none;
+}
+#notif > h3 {
+	margin: 0;
+	background-color: #e74c3c;
+	color: #fff;
+	line-height: 55px;
+}
+#isiNotif {
+	margin:21px 0px 24px 0px;
+	font-size: 25px;
+}
+.atas {
+	position: absolute;
+	top: 0px;left: 0px;right: 0px;
+	line-height: 56px;
+	background-color: #3498db;
+	color: #fff;
+	font-family: sans-serif;
+}
+.judul { margin-left: 4%;font-size: 22px; }
+.menuKiri {
+	position: absolute;
+	top: 56px;left: 0px;bottom: 0px;
+	background-color: #2980b9;
+	color: #fff;
+	font-family: sans-serif;
+	text-align: center;
+	width: 20%;
+}
+.menuKiri > li {
+	list-style: none;
+	line-height: 66px;
+	font-size: 19px;
+}
+#kontenDasbor {
+	position: absolute;
+	top: 56px;right: 0px;bottom: 0px;
+	overflow: auto;
+	font-family: sans-serif;
+	width: 80%;
+}
+.boxKonten { padding:7px 17px 9px 17px; }
+#idpin { width: 100px; }
+#pinjaman > table { text-align: center; }
+#buk { width: 280px; }
+#tglpin,#tglkem { width: 130px; }
+#dl { width: 174px; }
